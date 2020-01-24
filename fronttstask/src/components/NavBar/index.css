@@ -1,0 +1,30 @@
+.nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(7, 71, 166);
+  color: white;
+  width: 100%;
+  transition: right;
+  animation: navBar 1s;
+  margin-bottom: 1%; 
+}
+
+.nav-bar > .nav-link {
+  padding: 16px 8px 16px 8px;
+  margin: 0 6px 0 6px; 
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-top-width: 1px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar > .nav-link:hover{
+  background-color: white;
+  color: rgb(7, 71, 166);
+}
+
+.nav-link-active{
+  background-color: white;
+  color: rgb(7, 71, 166);  
+}

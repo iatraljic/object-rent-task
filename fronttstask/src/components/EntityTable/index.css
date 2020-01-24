@@ -1,0 +1,31 @@
+.entity-table-data{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1%;
+  border-bottom: 1px solid;
+}
+
+.etd-property{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 10%;
+}
+
+.etd-property > h4 {
+  align-self: stretch;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: green;
+}
+
+.delete-button {
+  background-color: red;
+}

@@ -1,0 +1,31 @@
+button {
+  height: 50px;
+  width: 100px;
+  color: white;
+  border: none;
+  margin: 1%; 
+}
+
+.button {
+  background-color: rgb(7, 71, 166);
+  margin: 1%;
+}
+
+.button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.add-new{
+  margin: 1%;
+  display: flex;
+  display: flex;
+	flex-direction: column;
+}
+
+input{
+  height: 20px;
+  padding: 5px;
+  margin-left: 3px;
+
+}

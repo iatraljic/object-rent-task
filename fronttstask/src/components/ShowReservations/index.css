@@ -1,0 +1,11 @@
+.reservation-info {
+  display: flex;
+  margin: 2%;
+  border-bottom: 1px solid;
+}
+
+h3{
+  margin: 2%;
+  width: 10%;
+  font-size: 15px;
+}
